@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-    res.send('Hi!')
+    res.json({message:"200 OK"})
 })
 
 app.get('/json/colors', (req, res) => {
